@@ -47,10 +47,16 @@ img {
   width: 150px;
 }
 
-.eye,
-.mouth,
-.accessory {
+.ears,
+.hairs, .legs{
   z-index: 1;
+}
+
+.accessories,
+.eyes,
+.nose,
+.mouths {
+  z-index: 2;
 }
 
 .button {
